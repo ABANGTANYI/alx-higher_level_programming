@@ -1,4 +1,2 @@
 #!/bin/bash
-
-python_code='print(f"Best School: {88+10}")'
-python3 -c "$python_code"
+python3 <<< $PYCODE
